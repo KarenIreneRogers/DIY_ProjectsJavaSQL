@@ -9,7 +9,7 @@ public class DbException extends RuntimeException {
 		super (message);
 	}
 	
-	public DbException(Throwable cause) {
+	public DbException(Throwable cause) { 
 		super (cause);
 	}
 	
